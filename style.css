@@ -1,0 +1,80 @@
+
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+body {
+	background-color: rgb(43, 41, 41);
+}
+
+.header{
+	background-color: rgb(17, 17, 17);
+	border-top: 0.1px solid black;
+	color: rgb(228, 222, 222);
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Vujahday Script', cursive;
+	font-size: 20px;
+	height: 60px;
+	text-align: center;
+	width: 100%;
+}
+
+.header__title{
+	padding-top: 3px;
+}
+
+.addbook{
+	bottom: 55px;
+	cursor: pointer;
+	padding: 0px;
+	position: absolute;
+	right: 55px;
+}
+
+.addbook__icon{
+	margin: 0px;
+}
+
+.addbook:hover{
+	color: rgb(98, 103, 104);
+}
+
+.newbook{
+	background: whitesmoke;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Mulish', sans-serif;
+	font-size: 20px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	text-align: center;
+	width: 300px;
+}
+
+.newbook__title{
+	margin-bottom: 10px;
+}
+
+.newbook__button{
+	background-color: rgb(122, 159, 207);
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+	padding: 10px 30px;
+	width: 90%;
+}
+
+.newbook__button:hover{
+	background-color: rgb(92, 124, 167);
+}
+
+.newbook__data{
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	width: 90%;
+}
