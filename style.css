@@ -47,12 +47,15 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Mulish', sans-serif;
 	font-size: 20px;
-	margin-top: 150px;
-	margin-left: auto;
-	margin-right: auto;
 	padding: 30px;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 200px;
+	left: 42%;
 	width: 300px;
+	z-index: 2;
 }
 
 .newbook__title{
@@ -77,4 +80,72 @@ body {
 	margin-bottom: 10px;
 	padding-left: 5px;
 	width: 90%;
+}
+
+.newbook__msg{
+	display: inline-block;
+	font-size: 14px;
+	padding-right: 16px;
+}
+
+.books{
+	display: flex;
+	flex-direction: row;
+}
+
+.book{
+	background-color: rgb(28, 124, 169);
+	border-radius: 5px;
+	box-shadow: 15px 15px 15px solid rgb(204, 195, 195);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Mulish', sans-serif;
+	font-size: 20px;
+	height: 250px;
+	margin-top: 50px;
+	margin-left: 50px;
+	text-align: center;
+	width: 200px;
+}
+
+.book__title{
+	background-color: gray;
+	border-radius: 5px;
+	height: 50px;
+	padding-top: 15px;
+}
+
+.book__author{
+	height: 50px;
+	padding-top: 15px;
+}
+
+.book__delbtn{
+	background-color: rgb(20, 19, 19);
+	border: 1px solid rgb(20, 19, 19);
+	border-radius: 0px 0px 5px 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	height: 30px;
+	position: relative;
+	top: 56px;
+	width: 100%;
+}
+
+.book__read{
+	background-color: rgba(0, 255, 110, 0.705);
+}
+
+.book__unread{
+	background-color: rgb(161, 49, 49);
+}
+
+.book__read, .book__unread{
+	color: white;
+	cursor: pointer;
+	height: 40px;
+	padding-top: 5px;
+	top: 56px;
+	position: relative;
 }
